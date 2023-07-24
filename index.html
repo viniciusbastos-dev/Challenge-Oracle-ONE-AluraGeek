@@ -6,26 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Geek</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/reset.css">
 
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/banner.css">
 </head>
 
 <body>
-
     <header>
+        <nav class="cabecalho container">
+            <div class="cabecalho__wrapper--direita">
+                <a href="#" class="cabecalho__logo"></a>
+                <div class="cabecalho__pesquisa">
+                    <input class="cabecalho__pesquisa__input" type="search" placeholder="O que deseja encontrar?">
+                    <input class="cabecalho__pesquisa__botao" type="button">
+                </div>
+            </div>
 
-      <nav class="cabecalho">
-
-        <a href="#" class="cabecalho__logo">
-            <img src="assets/img/logo_icone.svg" alt="">
-            <img src="assets/img/logo_texto.svg" alt="">
-        </a>
-
-      </nav>  
-
+            <button class="cabecalho__botao">Login</button>
+        </nav>
     </header>
-
+    <main>
+        <section class="banner">
+            <div class="banner__noticias container">
+                <h1 class="banner__titulo">Dezembro Promocional</h1>
+                <p class="banner__subtitulo">Produtos selecionados com 33% de desconto</p>
+                <button class="banner__botao">Ver Consoles</button>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>

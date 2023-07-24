@@ -107,6 +107,7 @@ section {
 }
 body {
     line-height: 1;
+    font-family: "Raleway", sans-serif;
 }
 ol,
 ul {
@@ -135,4 +136,8 @@ a {
 input {
     border: 0;
     outline: 0;
+}
+
+button {
+    cursor: pointer;
 }
