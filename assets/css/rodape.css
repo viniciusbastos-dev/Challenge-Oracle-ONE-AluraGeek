@@ -1,0 +1,14 @@
+.rodape {
+	display: flex;
+	align-items: flex-start;
+	gap: 112px;
+	padding: 64px 0;
+}
+
+.rodape__links {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	font-weight: 500;
+}
+

@@ -1,0 +1,12 @@
+.produtos {
+	padding-bottom: 4rem;
+	display: flex;
+	flex-direction: column;
+	gap: 4rem;
+}
+
+.produtos__wrapper {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+}

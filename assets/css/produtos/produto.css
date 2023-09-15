@@ -1,0 +1,20 @@
+.produto__card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .5rem;
+}
+
+.produto__nome {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.produto__preco {
+	font-weight: 700;
+}
+
+.produto__link {
+	color: var(--azul);
+	font-weight: 700;
+}
