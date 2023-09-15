@@ -265,42 +265,46 @@
 			</section>
 		</main>
 		<footer class="rodape container">
-			<img src="assets/img/Logo.png" alt="Logo do AluraGeek" />
-			<ul class="rodape__links">
-				<li><a href="#">Quem somos nós</a></li>
-				<li><a href="#">Política de privacidade</a></li>
-				<li><a href="#">Programa fidelidade</a></li>
-				<li><a href="#">Nossas lojas</a></li>
-				<li><a href="#">Quero ser franqueado</a></li>
-				<li><a href="#">Anuncie aqui</a></li>
-			</ul>
-			<form action="" class="formulario">
-				<fieldset>
-					<legend class="formulario__titulo">Fale conosco</legend>
-					<div class="formulario__campo">
-						<label for="nome">Nome</label>
+			<div class="rodape__wrapper">
+				<img src="assets/img/Logo.png" alt="Logo do AluraGeek" />
+				<ul class="rodape__links">
+					<li><a href="#">Quem somos nós</a></li>
+					<li><a href="#">Política de privacidade</a></li>
+					<li><a href="#">Programa fidelidade</a></li>
+					<li><a href="#">Nossas lojas</a></li>
+					<li><a href="#">Quero ser franqueado</a></li>
+					<li><a href="#">Anuncie aqui</a></li>
+				</ul>
+				<form action="" class="formulario">
+					<fieldset>
+						<legend class="formulario__titulo">Fale conosco</legend>
+						<div class="formulario__campo">
+							<label for="nome">Nome</label>
+							<input
+								type="text"
+								name="nome"
+								id="nome"
+								placeholder="Digite seu nome"
+							/>
+						</div>
+						<textarea
+							class="formulario__campo__texto"
+							name="mensagem"
+							id="mensagem"
+							placeholder="Escreva sua mensagem"
+						></textarea>
 						<input
-							type="text"
-							name="nome"
-							id="nome"
-							placeholder="Digite seu nome"
+							class="formulario__botao"
+							type="submit"
+							value="Enviar mensagem"
 						/>
-					</div>
-					<textarea
-						class="formulario__campo__texto"
-						name="mensagem"
-						id="mensagem"
-						cols="30"
-						rows="10"
-						placeholder="Escreva sua mensagem"
-					></textarea>
-					<input
-						class="formulario__botao"
-						type="submit"
-						value="Enviar mensagem"
-					/>
-				</fieldset>
-			</form>
+					</fieldset>
+				</form>
+			</div>
+			<div class="texto__copy">
+				<p>Desenvolvido por Vinícius Bastos</p>
+				<p>2021</p>
+			</div>
 		</footer>
 	</body>
 </html>

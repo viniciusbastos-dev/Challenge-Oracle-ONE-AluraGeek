@@ -1,7 +1,7 @@
 .formulario {
 	display: flex;
 	flex-direction: column;
-	flex-grow: 1;
+	flex-grow: 2;
 }
 
 .formulario__titulo {
@@ -9,9 +9,11 @@
 }
 
 .formulario__campo {
-	margin-top: 1rem;
+	width: 100%;
+	margin-top: .5rem;
 	padding: 0.5rem 0.75rem;
 	border-bottom: 1px solid #c8c8c8;
+	background-color: #fff;
 }
 .formulario__campo label {
 	color: var(--cinza);
@@ -36,6 +38,7 @@
 	width: 100%;
 	border-bottom: 1px solid #c8c8c8;
 	padding: 16px 12px;
+	margin-top: 16px;
 }
 
 .formulario__botao {

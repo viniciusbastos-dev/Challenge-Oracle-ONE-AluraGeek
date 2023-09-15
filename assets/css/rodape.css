@@ -1,4 +1,8 @@
 .rodape {
+	background-color: #eaf2fd;
+}
+
+.rodape__wrapper {
 	display: flex;
 	align-items: flex-start;
 	gap: 112px;
@@ -12,3 +16,7 @@
 	font-weight: 500;
 }
 
+.texto__copy {
+	text-align: center;
+	padding: 2rem;
+}
