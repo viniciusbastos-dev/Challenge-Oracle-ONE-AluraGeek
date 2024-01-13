@@ -7,6 +7,7 @@ interface ButtonProps {
 export const Button = styled.button<ButtonProps>`
     font-family: Raleway;
     padding: 16px;
+    cursor: pointer;
 
     @media screen and (max-width: 768px) {
         font-size: 14px;
